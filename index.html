@@ -184,7 +184,7 @@
   .task.done .task-meta, .task.skipped .task-meta { color: var(--ink-faint); }
   .skip-btn { background: none; border: none; color: var(--ink-faint); font-size: 12px; padding: 5px 0 0; text-decoration: underline; text-underline-offset: 2px; display: block; }
 
-  .card-btns { display: flex; flex-direction: column; gap: 10px; align-items: center; flex-shrink: 0; }
+  .card-btns { display: flex; flex-direction: row; gap: 8px; align-items: center; flex-shrink: 0; }
   .edit-btn { background: none; border: none; color: var(--ink-faint); padding: 2px 4px; line-height: 1; display: flex; }
   .edit-btn:active { color: var(--moss); }
   .delete-btn { background: none; border: none; color: var(--ink-faint); font-size: 18px; padding: 2px 4px; flex-shrink: 0; line-height: 1; }
@@ -257,7 +257,6 @@
     #achievements-view { max-width: 640px; }
     .task:hover { border-color: var(--ink-faint); }
     .task.done:hover, .task.skipped:hover { border-color: var(--line); }
-    .card-btns { flex-direction: row; gap: 8px; }
 
     /* Calendar: compact month grid beside the selected day's tasks */
     #calendar-view { display: grid; grid-template-columns: 360px minmax(0, 1fr); column-gap: 48px; align-content: start; max-width: 960px; }
